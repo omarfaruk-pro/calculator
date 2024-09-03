@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code For Calculator</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color: #f7f7f7;
+        color: #000;
+        padding-top: 50px;
+    }
+    h1{
+        font-size: 60px;
+        text-transform: capitalize;
+        color: purple;
+    }
+    .input-wrap{
+        display: flex;
+        column-gap: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    input{
+        border: 2px solid purple;
+        border-radius: 10px;
+        font-size: 18px;
+        padding: 8px 18px;
+    }
+    .button-wrap{
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+    }
+    .button-wrap button{
+        font-size: 16px;
+        border: 1px solid purple;
+        background-color: purple;
+        color: white;
+        padding: 10px 18px;
+        border-radius: 10px;
+    }
+    .button-wrap button:hover{
+        background-color: transparent;
+        color: purple;
+    }
+</style>
+<body>
+    <h1>Code for Calculator</h1>
+    <div class="input-wrap">
+        <input type="number" id="firstInput" placeholder="Enter First Number">
+        <input type="number" id="secontInput" placeholder="Enter Second Number">
+    </div>
+    <div class="button-wrap">
+        <button id="forAdd" onclick="add()">ADD</button>
+        <button id="forSubstrac" onclick="substrac()">SUBSTRAC</button>
+        <button id="forMultify" onclick="multify()">MULTIFY</button>
+        <button id="forDivision" onclick="division()">DIVISION</button>
+    </div>
+    <h2>Resut: <span id="getResult">Please input number</span></h2>
+    <script src="script.js"></script>
+    
+</body>
+</html>
