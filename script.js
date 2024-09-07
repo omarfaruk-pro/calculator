@@ -9,34 +9,34 @@ function add(){
         getresult.innerHTML = add;
         clearInput();
     }else{
-        alert("এই বেটা, সব তথ্য দে!")
+        alert("Input your calculate number")
     }
 }
 function substrac(){
     if (firstinput.value && lastinput.value){
-        let add = parseInt(firstinput.value) - parseInt(lastinput.value);
-        getresult.innerHTML = add;
+        let substract = parseInt(firstinput.value) - parseInt(lastinput.value);
+        getresult.innerHTML = substract;
         clearInput();
     }else{
-        alert("এই বেটা, সব তথ্য দে!")
+        alert("Input your calculate number")
     }
 }
 function multify(){
     if (firstinput.value && lastinput.value){
-        let add = parseInt(firstinput.value) - parseInt(lastinput.value);
-        getresult.innerHTML = add;
+        let multification = parseInt(firstinput.value) * parseInt(lastinput.value);
+        getresult.innerHTML = multification;
         clearInput();
     }else{
-        alert("এই বেটা, সব তথ্য দে!")
+        alert("Input your calculate number!")
     }
 }
 function division(){
     if (firstinput.value && lastinput.value){
-        let add = parseInt(firstinput.value) - parseInt(lastinput.value);
-        getresult.innerHTML = add;
+        let division = parseInt(firstinput.value) / parseInt(lastinput.value);
+        getresult.innerHTML = division;
         clearInput();
     }else{
-        alert("এই বেটা, সব তথ্য দে!")
+        alert("Input your calculate number")
     }
 }
 function clearInput(){
